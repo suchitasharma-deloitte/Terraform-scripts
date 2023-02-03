@@ -5,13 +5,13 @@ variable "project_id" {
 
 variable "location_id" {
   description = "The location to serve the app from."
-  default     = ""
+  default     = "us-central"
   type        = string
 }
 
 variable "auth_domain" {
   description = "The domain to authenticate users with when using App Engine's User API."
-  default     = ""
+  default     = "verified-domain.com"
   type        = string
 }
 
